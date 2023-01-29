@@ -1,0 +1,77 @@
+@import "Colors";
+
+.uprdata {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .dataentry {
+        width: 50%;
+        padding: 80px 62px;
+
+        h1 {
+            color: $fourth;
+            font-size: 40px;
+        }
+    }
+
+    .image {
+
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 90%;
+            padding: 40px 30px;
+        }
+    }
+}
+
+.paragraph {
+    width: 70%;
+    padding: 0px 109px;
+
+    .para {
+        p {
+            font-weight: 600;
+            color: #444;
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+    }
+
+    .heading {
+        width: 87%;
+        padding: 10px 32px;
+        text-align: center;
+
+        a {
+            font-size: 20px;
+            color: #1082c1;
+        }
+    }
+
+    .details {
+        padding: 10px 0px;
+
+        h1 {
+            padding: 13px 0px;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #1082c1;
+            font-family: system-ui;
+        }
+        img {
+            width: 94%;
+        }
+        p {
+            color: $dark;
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+
+    }
+
+}
