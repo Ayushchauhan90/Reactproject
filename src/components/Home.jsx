@@ -11,7 +11,7 @@ const Home = () => {
             </main>
          </div>
          <div className='home2' id=''>
-            <img src={vg} alt="effect" />
+            {/* <img src={vg} alt="effect" /> */}
             <div>
                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -20,6 +20,7 @@ const Home = () => {
                   electronic typesetting, remaining essentially unchanged. It was popularised in
                   the 1960s with the release of Letraset sheets containing Lorem</p>
             </div>
+            <img src={vg} alt="effect" />
          </div>
          <div className="home3" id='about'>
             <div>

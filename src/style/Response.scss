@@ -1,0 +1,436 @@
+// responsive at mobile point
+@media only screen and (max-width: 600px) {
+  nav {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0 2px;
+    flex-wrap: wrap;
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+  }
+  nav > main {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    // margin-left: 15px;
+  }
+  .home{
+    height: 35vh;
+    background-color: #fff;
+  }
+  .home > main {
+    margin: 58px 0;
+    display: block;
+    
+  }
+  .home > main > h1 {
+    font-size: 30px;
+    color: white;
+  }
+  .home::before {
+    border-radius: 0 0 187px 0px;
+    height: 33%;
+    border-top-right-radius: 178px;
+}
+// .home2 {
+//     flex-wrap: wrap;
+//     margin-top: -21px;
+//     padding: 0px 0px 15px 0px;
+//     height: 75vh;
+//     align-items: initial;
+// }
+.home2 {
+    flex-wrap: wrap;
+    margin-top: -12px;
+    padding: 20px 0px 15px 0px;
+    align-items: initial;
+}
+  .home2 > img {
+    width: 100%;
+    padding: 6px 31px 0 31px;
+  }
+  .home2 > div p {
+    color: #fff;
+    line-height: 19px;
+    word-spacing: 2px;
+  }
+  .home2 > div {
+    padding: 0 16px 15px 20px;
+    color: #fff;
+    width: 100%;
+  }
+  .home3 {
+    height: auto;
+  }
+  .home3 > div {
+    width: 100%;
+    background-color: white;
+    border-radius: 0px;
+    padding: 0px;
+    height: auto;
+  }
+  .home3 > div h1 {
+    margin: 12px auto;
+  }
+  .home3 > div p {
+    padding: 18px 9px 17px 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font: italic 100 1.2rem "cursive";
+  }
+  .home4 > div {
+    background-color: #5853ff;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .home4 {
+    height: auto;
+  }
+  .home4 > div > article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 7px 12px;
+  }
+  .home4 > div > article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 7px 0px;
+  }
+  .home4 > div > article > div{
+    margin: 10px 6px 10px 3px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .footer-flex > div {
+    width: 100%;
+  }
+//   service page 
+.uprdata .dataentry {
+    width: 100%;
+    padding: 23px 6px;
+}
+.uprdata .dataentry h1 {
+    font-size: 25px;
+    padding: 0 14px;
+}
+.uprdata .image {
+    width: 100%;
+}
+.uprdata .image img {
+    width: 100%;
+    height: 94%;
+    padding: 2px 9px;
+}
+.paragraph {
+    width: 100%;
+    padding: 0 15px;
+}
+.paragraph .heading {
+    width: 100%;
+    padding: 18px 24px;
+}
+.paragraph .para p {
+    font-size: 18px;
+}
+.paragraph .details h1 {
+    padding: 13px 0px;
+    font-size: 23px;
+}
+.paragraph .details img {
+    width: 100%;
+    margin: 5px 3px;
+}
+.paragraph .details p{
+    font-size: 17px;
+}
+// @media only screen and (min-width: 600px) {
+//     nav {
+//         padding: 13px 0px;
+//       }
+//       nav > main {
+//         width: 65%;
+//         margin-top: 20px;
+//         justify-content: end;
+//     }
+//     .home::before {
+//         height: 63%;
+//         border-radius: 0 0 0px 122px;
+//     }
+//     .home >main{
+//         margin: 47px;
+//     }
+//     .home2 {
+//         margin-top: 113px;
+//     }
+//     .home4 > div > article > div {
+//         margin: 10px 6px 10px 38px;
+//     }
+  
+// }
+}
+// responsive at tablet point
+@media screen and (min-width: 600px) and (max-width:750px) {
+       nav {
+        padding: 13px 0px;
+      }
+      nav > main {
+        width: 65%;
+        margin-top: 20px;
+        justify-content: end;
+    }
+    .home {
+        border-bottom-left-radius: 105px;
+        width: 100%;
+        height: 100vh;
+    }
+    .home::before {
+        height: 100%;
+        border-radius: 0 0 0px 122px;
+    }
+    .home > main {
+        margin-top: -19px;
+    }
+    .home2 {
+        // margin-top: -300px;
+        flex-wrap: wrap;
+    }
+    .home4 > div > article > div {
+        margin: 10px 6px 10px 38px;
+    }
+      .home2 > img {
+        width: 100%;
+        padding: 6px 31px 0 31px;
+      }
+      .home2 > div p {
+        color: #fff;
+        line-height: 19px;
+        word-spacing: 2px;
+      }
+      .home2 > div {
+        padding: 0 16px 15px 20px;
+        color: #fff;
+        width: 100%;
+      }
+      .home3 {
+        height: auto;
+      }
+      .home3 > div {
+        width: 100%;
+        background-color: white;
+        border-radius: 0px;
+        padding: 0px;
+        height: auto;
+      }
+      .home3 > div h1 {
+        margin: 12px auto;
+      }
+      .home3 > div p {
+        padding: 18px 9px 17px 16px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font: italic 100 1.2rem "cursive";
+      }
+      .home4 > div {
+        background-color: #5853ff;
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+      }
+      .home4 {
+        height: auto;
+      }
+      .home4 > div > article {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0 7px 12px;
+      }
+      .home4 > div > article {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0 7px 0px;
+      }
+      .home4 > div > article > div{
+        margin: 10px 6px 10px 3px;
+      }
+      footer {
+        height: auto;
+      }
+      footer .footer-flex > div {
+        width: 50%;
+    }
+    //   service page 
+    .uprdata .dataentry {
+        width: 100%;
+        padding: 23px 6px;
+    }
+    .uprdata .dataentry h1 {
+        font-size: 25px;
+        padding: 0 14px;
+    }
+    .uprdata .image {
+        width: 100%;
+    }
+    .uprdata .image img {
+        width: 100%;
+        height: 93%;
+        padding: 1px 43px;
+    }
+    .paragraph {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .paragraph .heading {
+        width: 100%;
+        padding: 18px 24px;
+    }
+    .paragraph .para p {
+        font-size: 18px;
+    }
+    .paragraph .details h1 {
+        padding: 13px 0px;
+        font-size: 23px;
+    }
+    .paragraph .details img {
+        width: 100%;
+        margin: 5px 3px;
+    }
+    .paragraph .details p{
+        font-size: 17px;
+    }
+  
+}
+@media screen and (min-width: 750px) and (max-width:1100px) {
+    nav {
+     padding: 13px 0px;
+   }
+   nav > main {
+     width: 65%;
+     margin-top: 20px;
+     justify-content: end;
+ }
+ nav > main > a {
+    padding-top: 5px;
+}
+ .home {
+     border-bottom-left-radius: 105px;
+     width: 100%;
+     height: 60vh;
+ }
+ .home::before {
+    border-radius: initial;
+    border-bottom-left-radius: 172px;
+    height: 60vh;
+}
+.home > main > h1 {
+    font: 400 4rem "Roboto";
+    margin: 0;
+}
+.home > main {
+    position: absolute;
+    top: -25%;
+}
+ .home2 {
+     // margin-top: -300px;
+     flex-wrap: wrap;
+ }
+ .home4 > div > article > div {
+     margin: 10px 6px 10px 38px;
+ }
+ .home2 > img {
+    width: 50%;
+    padding: 6px 3px 0 3px;
+}
+//    .home2 > div p {
+//      color: #fff;
+//      line-height: 19px;
+//      word-spacing: 2px;
+//    }
+   .home2 > div {
+    padding: 0 4px 0px 13px;
+    width: 50%;
+}
+.home3 {
+    height: auto;
+    // margin-bottom: 34px;
+    padding: 5px 0;
+}
+.home3 > div {
+    width: 88%;
+    height: auto;
+}
+//    .home3 > div h1 {
+//      margin: 12px auto;
+//    }
+.home3 > div p {
+    padding: 12px 63px 4px 0;
+}
+.home4{
+    width: 100%;
+    height: auto;
+}
+.home4 > div {
+    border-radius: initial;
+    width: 100%;
+    height: auto;
+    padding: 12px 0px;
+}
+.home4 > div > article > div {
+    margin: 9px 0px 10px 16px;
+}  
+
+ //   service page 
+ .uprdata {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 17px 0;
+}
+ .uprdata .dataentry {
+     width: 50%;
+     padding: 23px 6px;
+ }
+ .uprdata .dataentry h1 {
+     font-size: 25px;
+     padding: 0 14px;
+ }
+ .uprdata .image {
+     width: 50%;
+ }
+ .uprdata .image img {
+     width: 100%;
+     height: 93%;
+     padding: 1px 43px;
+ }
+ .paragraph {
+     width: 100%;
+     padding: 0 15px;
+ }
+ .paragraph .heading {
+     width: 100%;
+     padding: 18px 24px;
+ }
+ .paragraph .para p {
+     font-size: 18px;
+ }
+ .paragraph .details h1 {
+     padding: 13px 0px;
+     font-size: 23px;
+ }
+ .paragraph .details img {
+     width: 100%;
+     margin: 5px 3px;
+ }
+ .paragraph .details p{
+     font-size: 17px;
+ }
+
+}

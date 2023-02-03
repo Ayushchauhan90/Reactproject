@@ -3,6 +3,7 @@ import './style/Header.scss'
 import './style/Home.scss'
 import './style/Footer.scss'
 import './style/Services.scss'
+import './style/Response.scss'
 import {BrowserRouter as Router , Routes,Route} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -16,9 +17,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/Services' element={<Services />}/>
+        <Route path='Services' element={<Services />}/>
 
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='Contact' element={<Contact/>}/>
       </Routes>
 
       <Footer/>
